@@ -1,0 +1,286 @@
+/* common css start */
+*{
+     margin: 0;
+     padding: 0;
+     font-family: PlayfairDisplay-Regular ;
+     font-weight: 400;
+     font-size: 16px;
+     color: #626262;
+}
+@font-face{
+    font-family: PlayfairDisplay-Regular ;
+    src: url(../fonts/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+    font-family: Ubuntu-L;
+    src: url(../fonts/Ubuntu-L.ttf);
+}
+@font-face{
+    font-family: Inconsolata ;
+    src: url(../fonts/Inconsolata.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Black ;
+    src: url(../fonts/PlayfairDisplay-Black.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Bold ;
+    src: url(../fonts/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Italic ;
+    src: url(../fonts/PlayfairDisplay-Italic.otf);
+}
+
+
+ .container{
+     margin: auto;
+     width: 85%;
+
+ }
+ img{
+    width: 100%;
+ }
+/* common css end */
+
+/* header srtar */
+header{
+    padding: 25px 0;
+}
+header .container{
+    overflow: hidden;
+}
+header .logo{
+    width: 10%;
+    float: left;
+}
+header nav{
+    width: 50%;
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    float: right;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    margin: 8px 70px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+header nav ul li:last-child a{
+    margin-right: 0;
+}
+header nav ul li a:hover{
+    color: #000000;
+}
+/* header end */
+/* banner start */
+.banner-section{
+}
+.banner{
+    background: url(../images/banner.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 450px;
+}
+/* banner end */
+/* photodiary start */
+.photodiary-section{
+    margin-top: 100px;
+}
+.photodiary{
+    margin: 0 auto;
+    width: 85%;
+}
+.photodiary h3{
+    font-family: Ubuntu-L ;
+    /* font-size: ; */
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.photodiary h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.photodiary p{
+    margin-bottom: 50px;
+    line-height:30px ;
+
+}
+/* photodiary end */
+/* lifestyle start */
+.lifestyle-section{
+    margin-bottom: 140px;
+}
+.lifestyle{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+}
+.lifestyle .col{
+    margin-top: 140px;
+    margin-right: 10%;
+    width: 45%;
+    float: left;
+}
+.blog-img{}
+.blog-content{
+    margin-top: 30px;
+}
+.blog-content h3{
+    /* margin: 30px 0; */
+    font-family: Ubuntu-L;
+    text-transform: uppercase;
+    color: #b4ad9e;
+
+}
+.blog-content h2{
+    margin: 35px 0;
+    font-size: 35px;
+}
+.blog-content p{
+    width: 80%;
+    line-height: 30px;
+    /* color: #626262; */
+}
+.col:nth-child(2n+0){
+    margin-right: 0;
+}
+/* lifestyle end */
+/* newsletter start */
+.newsletter-section{
+    padding: 90px 0;
+    background-color: #F0F0F0;
+}
+.newsletter{
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+
+}
+.newsletter h2{
+    font-size: 40px;
+    color: #333333;
+    margin-bottom: 90px;
+}
+.newsletter form{
+    margin: 15px auto;
+    width: 35% ;
+
+}
+.newsletter input{
+    width: 80%;
+    /* margin-right: 20%; */
+    display: inline-block;
+    /* padding: 10px 70px 10px 0; */
+    color: #333333;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.newsletter input::placeholder{
+    color: #626262;
+}
+.newsletter button{
+    width: 10%;
+    /* display: inline-block; */
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.newsletter button i{
+    font-size: 40px;
+    /* width: 50px; */
+    /* height: auto; */
+}
+.newsletter hr{
+    margin: 0 auto;
+    width: 35%;
+}
+/* newsletter end */
+/* load more start */
+.load-section{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.load-more-btn{
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+
+}
+.load-more-btn button{
+    background: transparent;
+    outline: none;
+    border: 1px solid;
+    padding: 15px 40px;
+    font-size: 20px;
+    transition: .6s;
+}
+.load-more-btn button:hover{
+    color: white;
+    background-color: #626262;
+    border-color: #626262;
+}
+/* load more end */
+/* footer start */
+.footer-section{
+    padding: 60px 0;
+    background-color: #F0F0F0 ;
+}
+
+.footer{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%;
+}
+
+.footer .f-left{
+    float: left;
+    width: 40%;
+}
+.f-left nav{}
+.f-left nav ul{
+    list-style: none;
+    
+}
+.f-left nav ul li{
+    float: left;
+}
+.f-left nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+.footer .f-right{
+    float: right;
+    width: 50%;
+    
+}
+.right nav{}
+.f-right nav ul{
+    list-style: none;
+    float: right;
+}
+.f-right nav ul li{
+    float: left;
+}
+.f-right nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.f-right nav ul li:first-child a{
+    color: black;
+}
+.f-right nav ul li:last-child a{
+    margin-right: 0;
+}
+
+/* footer end */
